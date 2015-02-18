@@ -36,9 +36,6 @@ var myBooks = new Books(cjBooks);
 
 for (var i=0; i<myBooks.books.length; i++)
   document.write(myBooks.books[i].title);
-// console.log will show 4 books instead of 3 books
-// why? don't know
-// console.log("3 books:", myBooks); 
 
 var book4 = new Book(
   "book 4",
@@ -49,7 +46,6 @@ myBooks.addBook(book4);
 for (var i=0; i<myBooks.books.length; i++)
   document.write(myBooks.books[i].title);
 
-// console.log("4 books:", myBooks);
 
 
 

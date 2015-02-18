@@ -1,4 +1,3 @@
-// 02/02 Monday
 // instanceof
 
 var Media = function (name) {
